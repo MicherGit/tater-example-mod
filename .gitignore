@@ -1,0 +1,12 @@
+#Gradle
+.gradle
+build
+
+.settings
+.project
+.classpath
+*.launch
+bin
+run
+/.idea/
+libs/inf-20100227.jar
