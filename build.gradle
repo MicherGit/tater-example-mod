@@ -26,7 +26,7 @@ repositories {
 dependencies {
     minecraft name: "${project.minecraft_version}", version: "${project.minecraft_version}"
 
-    mappings files("libs/yarn-inf-20100227+build21d035.jar")
+    mappings files("libs/yarn-inf-20100414+build21d047.jar")
 
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
@@ -56,9 +56,9 @@ configurations.all {
 
 minecraft {
     intermediaryUrl = {
-        return 'https://gist.githubusercontent.com/PheonixVX/a4dd5871c299d8c0e201965e29946f76/raw/a94b1987e17c54f9eb93f78e15397a8dd96f8964/inf-20100227.tiny'
+        return 'https://raw.githubusercontent.com/MicherGit/Yarn-Trashcan/main/inf-20100414.tiny'
     }
-    customManifest = 'https://gist.githubusercontent.com/Chocohead/f522139742d22a65e33ef5481efb1740/raw/b17b970bb25fca4c4cee6ecf0cd149cae38a5891/inf-20100227.json'
+    customManifest = 'https://gist.githubusercontent.com/MicherGit/98ba2e7f4ed3168dbbe45b0fc7915238/raw/01b60daf98441037da32673f41855bcd092a5506/inf-20100414.json'
     clientOnly = true
 }
 
