@@ -15,6 +15,6 @@ public abstract class ExampleMixin {
 
     @Inject(method = "<init>", at = @At("TAIL"))
     private void onInit(CallbackInfo ci) {
-        field_1103 = "Infdev 227 woop!!";
+        field_1103 = "Infdev 414 woop!!";
     }
 }
