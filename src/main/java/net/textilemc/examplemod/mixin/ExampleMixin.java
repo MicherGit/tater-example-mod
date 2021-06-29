@@ -10,11 +10,4 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(GuiMainMenu.class)
 public abstract class ExampleMixin {
 
-    @Shadow
-    private String field_1103;
-
-    @Inject(method = "<init>", at = @At("TAIL"))
-    private void onInit(CallbackInfo ci) {
-        field_1103 = "Infdev 227 woop!!";
-    }
 }
