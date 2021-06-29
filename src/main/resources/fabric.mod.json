@@ -28,6 +28,6 @@
 
   "depends": {
     "fabricloader": "*",
-    "minecraft": "20100227"
+    "minecraft": "20100223"
   }
 }
